@@ -28,4 +28,4 @@ Az ismertetők és élő bemutatókon túl – ahogy azt már az ITMP-kurzusokon
 |11:00-12:30|[Egy szoftverfejlesztési projekt megvalósítása ChatGPT támogatással](workshop-1-project-chatgpt.md) - kiscsoportos gyakorlat|
 |12:30-13:30|Ebéd szünet|
 |13:30-14:00|Kódoló asszisztensek a szoftverfejlesztésben – áttekintés és demo|
-|14:00-15:30|[Egy szoftverfejlesztési projekt megvalósítása Microsoft Copilot](workshop-2-project-copilot-codeium.md) / Codeium támogatással - kiscsoportos gyakorlat|
+|14:00-15:30|[Egy szoftverfejlesztési projekt megvalósítása GitHub Copilot](workshop-2-project-copilot-codeium.md) / Codeium támogatással - kiscsoportos gyakorlat|
