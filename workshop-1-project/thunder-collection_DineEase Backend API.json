@@ -1,0 +1,216 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "DineEase Backend API",
+    "dateExported": "2024-04-10T19:47:43.310Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "30b04dbd-041e-41a5-a8c3-92e25e00b755",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Get brief data of all users",
+            "url": "{{baseUrlCompetitor}}/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-10T12:41:36.268Z",
+            "modified": "2024-04-10T19:43:43.503Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "43b22b10-dd87-4cbf-b9e3-284286041d60",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Get detailed information about a selected user",
+            "url": "{{baseUrlCompetitor}}/users/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-10T12:41:36.269Z",
+            "modified": "2024-04-10T19:44:01.883Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6d7f0371-7d7e-4ab8-984a-a03abe4d6c3c",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Get detailed information about a non existing user",
+            "url": "{{baseUrlCompetitor}}/users/100",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-04-10T12:58:22.223Z",
+            "modified": "2024-04-10T19:44:10.241Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "efec255e-6ea2-4bd1-a95f-92d2348e2977",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Disable a user",
+            "url": "{{baseUrlCompetitor}}/users/1",
+            "method": "PUT",
+            "sortNum": 27500,
+            "created": "2024-04-10T12:59:22.387Z",
+            "modified": "2024-04-10T19:44:20.873Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"isActive\": false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ac2340fe-157e-498e-bcb0-5c0208e3ff92",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Activate a user",
+            "url": "{{baseUrlCompetitor}}/users/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-10T12:41:36.270Z",
+            "modified": "2024-04-10T19:44:27.434Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"isActive\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c94e3bf6-2cc0-4c24-86ea-973ff128156a",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Get brief data of all restaurants with average rating",
+            "url": "{{baseUrlCompetitor}}/restaurants",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-10T12:41:36.271Z",
+            "modified": "2024-04-10T19:44:32.632Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "00320908-5e16-482a-8af0-5c654f46bd81",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Get the data of all plans",
+            "url": "{{baseUrlCompetitor}}/plans",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-04-10T12:41:36.272Z",
+            "modified": "2024-04-10T19:44:39.312Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "382884d9-22e4-4115-978e-d80e41c9643a",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Update a selected plan",
+            "url": "{{baseUrlCompetitor}}/plans/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-04-10T12:41:36.273Z",
+            "modified": "2024-04-10T19:44:45.082Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"thunder\",\n  \"monthlyFee\": 54,\n  \"yearlyFee\": 97,\n  \"maxNumberOfRestaurants\": 20,\n  \"description\": \"thunder\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ce0a3188-633d-4b61-bdb8-a4c5add5dfd5",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Get the data of all roles",
+            "url": "{{baseUrlCompetitor}}/roles",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-04-10T12:41:36.274Z",
+            "modified": "2024-04-10T19:44:51.140Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "354e8c1c-1c29-412f-8d24-deaa34b0b870",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Get all reviews with brief restaurant data",
+            "url": "{{baseUrlCompetitor}}/reviews",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-04-10T12:41:36.275Z",
+            "modified": "2024-04-10T19:44:56.797Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "677dc9ee-d645-4786-88b6-4c95af1f8660",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Delete a selected review",
+            "url": "{{baseUrlCompetitor}}/reviews/13",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-04-10T12:41:36.276Z",
+            "modified": "2024-04-10T19:45:02.357Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b51e0564-131a-4f39-91bf-607f99f89ee3",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Register a new restaurant owner with restaurants and subscription plan",
+            "url": "{{baseUrlCompetitor}}/registration",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-04-10T12:41:36.277Z",
+            "modified": "2024-04-10T19:47:29.149Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"firstName\": \"Egon\",\r\n  \"lastName\": \"Márton\",\r\n  \"email\": \"egon.marton@gmail.com\",\r\n  \"password\": \"Password123\",\r\n  \"planId\": 1,\r\n  \"annualPayment\": 1,\r\n  \"restaurants\": [\r\n    {\r\n      \"name\": \"Pizza Genius\",\r\n      \"cuisine\": \"italian\",\r\n      \"countryCode\": \"HU\",\r\n      \"zipCode\": \"1135\",\r\n      \"city\": \"Budapest\",\r\n      \"address\": \"Béke tér 1.\"\r\n    }\r\n  ]\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f97b17bf-d643-4b14-a238-8b413bfa2073",
+            "colId": "5c8df2ab-c2c2-4458-a1e9-efb34bf7fa76",
+            "containerId": "",
+            "name": "Reset DB",
+            "url": "{{baseUrlSolution}}/reset-db",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-04-10T12:41:36.278Z",
+            "modified": "2024-04-10T19:41:23.480Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "{{baseUrl}}"
+        }
+    }
+}

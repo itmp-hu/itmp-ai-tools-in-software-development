@@ -1,0 +1,2 @@
+# MI eszközök a szoftverfejlesztésben
+
