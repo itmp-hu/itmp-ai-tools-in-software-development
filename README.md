@@ -21,7 +21,7 @@ Az ismertetők és élő bemutatókon túl – ahogy azt már az ITMP-kurzusokon
 |Időpont|Téma|
 | :- | :- |
 |09:00-09:15|Köszöntő|
-|09:15-09:45|A szoftverfejlesztésben használt MI-eszközök áttekintése - Kaló Zoltan, Megoldás értékesítési igazgató, Nagyvállalati üzletág, Microsoft Magyarország|
+|09:15-09:45|A szoftverfejlesztésben használt MI-eszközök áttekintése - Kaló Zoltán, Megoldás értékesítési igazgató, Nagyvállalati üzletág, Microsoft Magyarország|
 |09:45-10:00|MI-eszközök jelene és jövője az informatikai képzésekben - Sisák Zoltán, HTTP Alapítvány|
 |10:00-10:30|ChatGPT és Microsoft Copilot használata a kódoláshoz – demo - Sisák Zoltán, HTTP Alapítvány|
 |10:30-10:45|Kávészünet|
