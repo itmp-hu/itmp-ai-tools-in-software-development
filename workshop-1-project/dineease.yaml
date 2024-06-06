@@ -4,7 +4,7 @@ info:
   version: 1.0.0
   description: API for managing DineEase service data for the admin and web applications.
 servers:
-  - url: http://competitor-YYYY-module-a.dineease.com/api/v1
+  - url: http://localhost:5000
     description: Base URL for API endpoints (Replace YYYY with your four-digit pin)
 
 paths:
