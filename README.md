@@ -25,8 +25,8 @@ Az ismertetők és élő bemutatókon túl – ahogy azt már az ITMP-kurzusokon
 |09:45-10:00|MI-eszközök jelene és jövője az informatikai képzésekben - Sisák Zoltán, HTTP Alapítvány|
 |10:00-10:30|ChatGPT és Microsoft Copilot használata a kódoláshoz – demo - Sisák Zoltán, HTTP Alapítvány|
 |10:30-10:45|Kávészünet|
-|10:45-12:15|[Egy kódolási projekt megvalósítása ChatGPT/Microsoft Copilot támogatással - kiscsoportos mentorált gyakorlat](workshop-1-project-chatgpt.md)|
+|10:45-12:15|Egy kódolási projekt megvalósítása ChatGPT/Microsoft Copilot támogatással - kiscsoportos mentorált gyakorlat|
 |12:15-13:00|Ebédszünet|
 |13:00-13:30|Kódoló asszisztensek és más MI eszközök a szoftverfejlesztés gyakorlatában - Jeges Ernő, Cydrill Software Security|
 |13:30-14:00|GitHub Copilot használata a kódoláshoz – demo - Sisák Zoltán, HTTP Alapítvány|
-|14:00-15:30|[Egy kódolási projekt megvalósítása GitHub Copilot - kiscsoportos mentorált gyakorlat](workshop-2-project-copilot-codeium.md)|
+|14:00-15:30|Egy kódolási projekt megvalósítása GitHub Copilot - kiscsoportos mentorált gyakorlat|
